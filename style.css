@@ -1,43 +1,74 @@
 body {
-font-family: Arial, sans-serif;
-background-color: #f0f0f0;
-margin: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o padding padrão */
+    height: 100vh; /* Define a altura do body para preencher a tela inteira */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(programmer.jpg) ; /* Adicione o caminho para sua imagem aqui */
+    background-size: cover; /* Faz a imagem cobrir todo o fundo */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-attachment: fixed; /* Faz a imagem de fundo ficar fixa ao rolar a página */
 }
-.container{
-  text-align: center;
-    background-color: #fff;
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
     padding: 20px;
     border-radius: 10px;
+    max-width: 600px;
+    width: 100%; /* Faz o container ocupar 100% da largura disponível */
+    margin: 20px; /* Adiciona margem */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Inclui padding e border na largura e altura */
 }
-h1 {
-color: #333;
-}
-button {
-padding: 10px 20px;
 
-font-size: 16px;
-cursor: pointer;
-background-color: #007BFF;
-color: white;
-border: none;
-border-radius: 5px;
+h1 {
+    color: #333;
+    text-align: center; /* Centraliza o texto */
 }
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
 button:hover {
-background-color: #0056b3;
+    background-color: #0056b3;
 }
+
 #mensagem {
-color: #007BFF;
-font-weight: bold;
+    color: #007BFF;
+    font-weight: bold;
 }
+
 #textoAlterado {
-color: #555;
-font-style: italic;
+    color: #555;
+    font-style: italic;
 }
+
 a {
-color: #007BFF;
-text-decoration: none;
+    color: #007BFF;
+    text-decoration: none;
 }
+
 a:hover {
-text-decoration: underline;
+    text-decoration: underline;
+}
+
+/* Media queries para garantir responsividade */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Reduz o padding em telas pequenas */
+    }
+
+    button {
+        font-size: 14px; /* Reduz o tamanho da fonte do botão em telas pequenas */
+    }
 }

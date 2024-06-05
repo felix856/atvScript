@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #3c3474;
     margin: 0; /* Remove a margem padrão */
     padding: 0; /* Remove o padding padrão */
     height: 100vh; /* Define a altura do body para preencher a tela inteira */
@@ -15,6 +15,7 @@ body {
 
 .container {
     background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com opacidade */
+    background-image: url('971.jpg'); 
     padding: 20px;
     border-radius: 10px;
     max-width: 600px;
@@ -33,32 +34,33 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    background-color: #007BFF;
+    background-color: #b350cf;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #4e0fcf;
 }
 
 #mensagem {
-    color: #007BFF;
+    color: #0f045f;
     font-weight: bold;
 }
 
 #textoAlterado {
-    color: #555;
+    color: #140469;
     font-style: italic;
 }
 
 a {
-    color: #007BFF;
+    color: #2a0499;
     text-decoration: none;
 }
 
 a:hover {
+    color: #37117d; 
     text-decoration: underline;
 }
 

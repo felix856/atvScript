@@ -7,7 +7,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(programmer.jpg) ; /* Adicione o caminho para sua imagem aqui */
+    background-image: url('caminho/para/sua/imagem.jpg'); /* Adicione o caminho para sua imagem aqui */
     background-size: cover; /* Faz a imagem cobrir todo o fundo */
     background-repeat: no-repeat; /* Não repete a imagem */
     background-attachment: fixed; /* Faz a imagem de fundo ficar fixa ao rolar a página */
